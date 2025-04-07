@@ -21,9 +21,6 @@
   align-items: center;
   justify-items: center;
 }
-.logo img {
-  height: 1em;
-}
 .logo-text {
   grid-column: 2;
   font-size: .5em;
