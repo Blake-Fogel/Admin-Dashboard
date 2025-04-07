@@ -2,6 +2,18 @@
   --blue-color: rgb(20, 154, 207);
   --grey-color: rgba(165, 180, 198, 0.361);
 }
+a:link { 
+  text-decoration: none; 
+} 
+a:visited { 
+  text-decoration: none; 
+} 
+a:hover { 
+  text-decoration: none; 
+} 
+a:active { 
+  text-decoration: none; 
+}
 /* #region sidebar-grid */
 .sidebar {
   display: grid;
@@ -20,6 +32,11 @@
   grid-template-rows: 1fr;
   align-items: center;
   justify-items: center;
+  text-decoration: none;
+}
+.img {
+  align-self: stretch;
+  justify-self: stretch;
 }
 .logo-text {
   grid-column: 2;
@@ -28,6 +45,9 @@
   justify-self: left;
   font-weight: bold;
 }
+/* #endregion */
+/* #region first-button-group */
+
 /* #endregion */
 /* #endregion */
 /*#region body-grid */
