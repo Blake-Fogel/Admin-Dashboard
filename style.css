@@ -1,20 +1,26 @@
 :root {
   --blue-color: rgb(20, 154, 207);
   --grey-color: rgba(165, 180, 198, 0.361);
+  --text-size: .4em;
+  --logo-text-size: .5em;
 }
 a:link { 
   text-decoration: none; 
+  color:white;
 } 
 a:visited { 
   text-decoration: none; 
+  color: white;
 } 
 a:hover { 
   text-decoration: none; 
+  color: white;
 } 
 a:active { 
   text-decoration: none; 
+  color: white;
 }
-/* #region sidebar-grid */
+/* #region sidebar */
 .sidebar {
   display: grid;
   grid-template-rows: 1fr 4fr 1.5fr 3.5fr;
@@ -24,32 +30,8 @@ a:active {
   padding-left: 5px;
   background-color: var(--blue-color);
 }
-/* #region logo-grid */
-.logo {
-  grid-row: 1 / 2;
-  display: grid;
-  grid-template-columns: 2fr 8fr;
-  grid-template-rows: 1fr;
-  align-items: center;
-  justify-items: center;
-  text-decoration: none;
-}
-.img {
-  align-self: stretch;
-  justify-self: stretch;
-}
-.logo-text {
-  grid-column: 2;
-  font-size: .5em;
-  color: white;
-  justify-self: left;
-  font-weight: bold;
-}
 /* #endregion */
-/* #region first-button-group */
 
-/* #endregion */
-/* #endregion */
 /*#region body-grid */
 body {
     margin: 0;
