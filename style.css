@@ -1,8 +1,8 @@
 :root {
   --blue-color: rgb(20, 154, 207);
   --grey-color: rgba(165, 180, 198, 0.361);
-  --text-size: .4em;
   --logo-text-size: .5em;
+  --logo-svg-size: 1em
 }
 a:link { 
   text-decoration: none; 
@@ -20,6 +20,29 @@ a:active {
   text-decoration: none; 
   color: white;
 }
+/* #region logo */
+.logo {
+  grid-row: 1 / 2;
+  grid-column: 1 / 2;
+  display: grid;
+  grid-template-columns: 2fr 8fr;
+  grid-template-rows: 1fr;
+}
+.logo a {
+  display: grid;
+}
+.logo-image img {
+  justify-self: center;
+  align-self: center;
+  height: var(--logo-svg-size);
+}
+.logo-text {
+  justify-self: left;
+  align-self: center;
+  font-size: var(--logo-text-size);
+  font-weight: bold;
+}
+/* #endregion */
 /* #region sidebar */
 .sidebar {
   display: grid;
