@@ -6,6 +6,9 @@
   --sidebar-text-size: .4em;
   --sidebar-image-size: .35em;
 }
+html {
+  font-size: 5em;
+}
 /* #region announcements-and-trending */
 .announcements-and-trending {
   display: grid;
